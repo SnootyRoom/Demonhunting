@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/end"
+    tools:context=".Win">
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/comic_sans"
+        android:text="Вы мертвы!"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="357dp"
+        android:layout_height="462dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/comic_sans"
+        android:text="Вы видели множество кошмаров и ужасов, но всегда были готовы к битве. Вы не боялся смерти, потому что знали, что каждый бой может оказаться вашим последним.  Однако,  вы сейчас понимаете, что борьба со злом не заканчивается смертью одного охотника. Мы должны продолжать бороться с демонами, пока они не перестанут угрожать нашему миру. Вы оставляете свой клинок своему другу в наследство. Пусть он поможет ему в битве со злом, и пусть в нашем мире будет меньше страха и боли.  Охотники на демонов, не забывайте, что вы не одни. Мы все боремся за одну цель, и вы уверены, что вы продолжите эту борьбу в моем отсутствии.  Спасибо, что были со мной на этом пути.  Вы никогда не забудете лица ваших товарищей. "
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="@+id/textView28"
+        app:layout_constraintStart_toStartOf="@+id/textView28"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <ImageView
+        android:id="@+id/end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

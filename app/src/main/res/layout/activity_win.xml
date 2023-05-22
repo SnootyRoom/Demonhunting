@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/end"
+    tools:context=".Win">
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/comic_sans"
+        android:text="Вы победили!"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="357dp"
+        android:layout_height="462dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/comic_sans"
+        android:text="Кем бы мы ни были, где бы ни находились, каждый из нас столкнулся с вызовом в лице главного демона. Этот демон был настолько могущественным и опасным, что многие считали, что его победа невозможна. Но мы, вооруженные нашими клинками, нашей смелостью и преданностью, отважились противостоять ему.  Не в первый раз мы рисковали своей жизнью, чтобы защитить мир. Но эта битва была особенной. Этот демон уничтожил много жизней, поставил под угрозу наше будущее и заставил нас пройти через много боли и страданий. Мы прошли через это, чтобы доказать, что мы сильнее даже самых могущественных демонов.  Сегодня мы торжествуем над этим демоном, и я надеюсь, что это будет началом новой эры гармонии и мира в нашем мире. Мы должны помнить тех, кто погиб в этой битве, и почитать их."
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="@+id/textView28"
+        app:layout_constraintStart_toStartOf="@+id/textView28"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <ImageView
+        android:id="@+id/end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
